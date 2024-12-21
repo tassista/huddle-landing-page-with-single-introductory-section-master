@@ -1,0 +1,40 @@
+:root{
+/*  colors   */
+--Violet: hsl(257, 40%, 49%);
+--Soft-Magenta: hsl(300, 69%, 71%);
+
+/*   typo   */
+--ff-header: "Poppins", serif;
+--ff-body: "Open Sans", serif;
+
+--fw-normal: 400;
+--fw-bold: 600;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+.wrapper{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-block: 2.5rem;
+}
+body{
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-color: var(--Violet);
+}
+img{
+    display: block;
+    width: 100%;
+}
+.logo{
+    width: 130px;
+    margin-bottom: 4rem;
+}
